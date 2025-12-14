@@ -1,0 +1,152 @@
+@import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  line-height: 1.4;
+}
+
+.maintitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(51, 138, 151, 1) 10%,
+    rgba(64, 161, 144, 1) 25%,
+    rgba(75, 179, 139, 1) 37%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(161, 210, 108, 1) 64%,
+    rgba(237, 221, 83, 1) 77%,
+    rgba(237, 221, 83, 1) 92%
+  );
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  text-shadow: 2px 5px 20px rgb(2, 111, 161);
+  transition: all 1s;
+}
+.navlist {
+  list-style: none;
+}
+.navtext {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 22px 26px;
+}
+nav {
+  border: 3px solid aqua;
+  width: 700px;
+  border-radius: 50px;
+  background-color: #78d0ff;
+  margin: 10px auto;
+}
+.navlist {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  font-size: 25px;
+}
+
+.navunlist {
+  padding: 15px;
+}
+.logo {
+  border-radius: 50%;
+}
+.herovideo {
+  width: 100%;
+}
+.parainfo {
+  text-align: center;
+  font-size: 20px;
+  color: #2a7b9b;
+}
+section,
+footer {
+  width: 80%;
+  border: 3px solid rgb(166, 166, 42);
+  margin: 5px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: #0b0b17;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 11, 23, 1) 0%,
+    rgba(9, 9, 121, 1) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  transition: box-shadow 1s;
+}
+section:hover,
+footer:hover {
+  box-shadow: 90px 60px 90px rgb(52, 138, 200);
+  cursor: pointer;
+  transition: box-shadow 1s;
+}
+.sectiontitle {
+  text-decoration: none;
+  background: #833ab4;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-weight: 800px;
+}
+#secpara {
+  padding-bottom: 10px;
+}
+#githublink {
+  text-decoration: none;
+  color: rgb(0, 60, 255);
+  border: 2px solid rgb(0, 200, 255);
+  border-radius: 3px;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+.skillssec {
+  background-color: black;
+  list-style: none;
+}
+.maintitle:hover {
+  color: #78d0ff;
+  transition: all 1.5s;
+  transform: scale(1.2);
+}
+.learning {
+  margin-top: 15px;
+}
+
+.subhead {
+  flex: 1;
+  border: 3px solid aqua;
+
+  width: 600px;
+  border-radius: 15px;
+  background-color: bisque;
+}
+a {
+  text-decoration: none;
+}
+.subhead dt {
+  color: rgb(255, 81, 0);
+}
+.glossary {
+  display: flex;
+  gap: 15px;
+}
